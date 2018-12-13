@@ -5,5 +5,9 @@
 </head>
 <body>
 <h1>Hello, World!</h1>
+<form action="persons" method="post">
+    <input type="text" name="fullname">
+    <button type="submit">Get Data</button>
+</form>
 </body>
 </html>
